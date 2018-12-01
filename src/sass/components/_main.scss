@@ -1,0 +1,56 @@
+.main{
+	width:78%;
+	display:flex;
+	flex-direction: column;
+
+
+	&__description{
+		height:70%;
+		text-align: center;
+
+		&-list{
+
+			list-style: none;
+			transform:translateX(-10%);
+
+			&-photo{
+				width:30%;
+				border-radius: 50%;
+			}
+			&-name{
+				font-size: 4.5rem;
+				font-family: 'Indie Flower', cursive;
+				color:$color-red-primary;
+				margin-bottom: 1rem;
+				letter-spacing: .2rem;
+			}
+			&-description{
+				font-size: 2rem;
+				font-family: 'Courier New';
+				color:$color-white;
+				letter-spacing: .1rem;
+				margin-bottom: 1rem;
+			}
+			&-calories{
+				font-size: 2rem;
+				font-family: 'Courier New';
+				letter-spacing: .1rem;
+				margin-bottom: 1rem;
+			}
+			&-allergie{
+				font-size: 2rem;
+				font-family: 'Courier New';
+				letter-spacing: .1rem;
+				margin-bottom: 1rem;
+			}
+			&-price{
+				font-size: 2.5rem;
+				font-family: 'Indie Flower', cursive;
+			}
+		}
+	}
+	&__basket{
+		height:29%;
+		text-align: center;
+	}
+}
